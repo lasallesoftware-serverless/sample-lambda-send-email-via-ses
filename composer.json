@@ -1,0 +1,27 @@
+{
+    "name": "lasallesoftware-serverless/sample-lambda-send-email-via-ses",
+    "description": "Send email via SES sample PHP Lambda function using the Serverless Framework with Bref's PHP plugin",
+    "keywords": ["php", "serverless", "lambda"],
+    "license": "MIT",
+    "homepage": "https://phpserverlessproject.com",
+    "support": {
+        "issues": "https://github.com/lasallesoftware-serverless/sample-lambda-hello-world/issues",
+        "source": "https://github.com/lasallesoftware-serverless/sample-lambda-hello-world"
+    },
+    "authors": [
+        {
+            "name": "Bob Bloom",
+            "email": "bob.bloom@lasallesoftware.ca"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.208",
+        "bref/bref": "^1.4"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
