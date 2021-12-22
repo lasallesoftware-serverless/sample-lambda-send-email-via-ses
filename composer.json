@@ -5,8 +5,8 @@
     "license": "MIT",
     "homepage": "https://phpserverlessproject.com",
     "support": {
-        "issues": "https://github.com/lasallesoftware-serverless/sample-lambda-hello-world/issues",
-        "source": "https://github.com/lasallesoftware-serverless/sample-lambda-hello-world"
+        "issues": "https://github.com/lasallesoftware-serverless/sample-lambda-send-email-via-ses/issues",
+        "source": "https://github.com/lasallesoftware-serverless/sample-lambda-send-email-via-ses"
     },
     "authors": [
         {
