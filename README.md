@@ -9,7 +9,7 @@
 <br>
 
 This repo uses:
-- Serverless Framework v2
+- Serverless Framework v3
 - Bref's PHP plugin for the Serverless Framework
 - Bref's PHP runtime for Lambda
 
