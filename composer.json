@@ -16,8 +16,8 @@
     ],
     "require": {
         "php": "^8.0",
-        "aws/aws-sdk-php": "^3.212",
-        "bref/bref": "^1.7"
+        "aws/aws-sdk-php": "^3.263",
+        "bref/bref": "^2.0"
     },
     "config": {
         "optimize-autoloader": true,

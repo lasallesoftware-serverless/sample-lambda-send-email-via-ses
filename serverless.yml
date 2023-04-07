@@ -3,7 +3,7 @@ service: sample-lambda-send-email-via-ses
 provider:
     name: aws
     region: us-east-1  # It is critical that this be the correct region.
-    runtime: provided.al2
+    runtime: php-82-fpm
     deploymentBucket:
       name: lambda-functions-with-serverless-framework-<your-aws-account-number>  # This will be the "root" S3 bucket. Must be the same region as above.
     memorySize: 128  # Default is 1024. See https://aws.amazon.com/lambda/pricing/.
@@ -24,8 +24,6 @@ functions:
         handler: src/Handler.php
         description: 'Send email via SES sample PHP Lambda function'
         timeout: 28  # in seconds (API Gateway has a timeout of 29 seconds)
-        layers:
-            - ${bref:layer.php-82-fpm}
         events:
             -   httpApi: '*'
 
