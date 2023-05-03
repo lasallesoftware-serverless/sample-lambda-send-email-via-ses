@@ -20,7 +20,13 @@
  *
  */
 
-require './../vendor/autoload.php';
+if (isset($_SERVER['LAMBDA_TASK_ROOT'])) {
+    // For Lambda
+    require_once './../vendor/autoload.php';
+} else {1
+    // For your local development
+    require_once '/var/task/vendor/autoload.php';
+}
 
 
 // Set the vars
